@@ -1,13 +1,6 @@
-# Big
+# 龙女仆第七话
 
----
-title: "Big"
-description: 
-date: 2022-06-16T19:40:43+08:00
-image: 
-math: 
-license: 
-hidden: false
-comments: true
-draft: false
----
+
+# 3
+
+{{< video id="u" url="https://qiniu.sukoshi.xyz/video/%E7%BE%8E.mp4"  pic="https://qiniu.sukoshi.xyz/video/%E7%BE%8E.mp4?vframe/jpg/offset/10">}}

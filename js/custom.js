@@ -23,3 +23,15 @@ function runtime() {
         + ((days < 10) ? '0' : '') + days + ' days '+ ' ago | Theme by <a href="https://github.com/dillonzq/LoveIt">LoveIt</a>';
 }
 runtime();
+
+function dplayerInit () {
+    const dplayers = querySelectorArrs('.dplayer-box')
+    if (dplayers.length && DPlayer) {
+      dplayers.forEach(el => {
+        const params = { container: el, video: { ...el.dataset } }
+        const config = formatAttr(el)
+        new DPlayer(Object.assign({}, config, params))
+      })
+    }
+  }
+dplayerInit();

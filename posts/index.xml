@@ -5,38 +5,28 @@
         <description>All Posts | Louis Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>torchfor@gmail.com (Louis)</managingEditor>
             <webMaster>torchfor@gmail.com (Louis)</webMaster><lastBuildDate>Fri, 17 Jun 2022 20:59:03 &#43;0800</lastBuildDate><atom:link href="https://keenx.live/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>对LoveIt主题的个人改动</title>
-    <link>https://keenx.live/tt/</link>
+    <title></title>
+    <link>https://keenx.live/posts/categories/</link>
     <pubDate>Fri, 17 Jun 2022 20:59:03 &#43;0800</pubDate>
     <author>Louis</author>
-    <guid>https://keenx.live/tt/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="/img/featured-image.jpg" referrerpolicy="no-referrer">
-            </div>对LoveIt主题的个人改动 css样式的修改 首先附上LoveIt主题的doc。本人完全不会前端，完全是面向搜索引擎和各个大佬的教程进行修改，]]></description>
+    <guid>https://keenx.live/posts/categories/</guid>
+    <description><![CDATA[分类]]></description>
 </item>
 <item>
-    <title>Python</title>
-    <link>https://keenx.live/python/</link>
-    <pubDate>Fri, 17 Jun 2022 19:25:53 &#43;0800</pubDate>
-    <author>Louis</author>
-    <guid>https://keenx.live/python/</guid>
-    <description><![CDATA[Python面试宝典 - 基础篇 - 2020 题目001: 在Python中如何实现单例模式。 点评：单例模式是指让一个类只能创建出唯一的实例，这个题目在面试]]></description>
-</item>
-<item>
-    <title>Big</title>
+    <title>龙女仆第七话</title>
     <link>https://keenx.live/big/</link>
     <pubDate>Thu, 16 Jun 2022 19:40:43 &#43;0800</pubDate>
     <author>Louis</author>
     <guid>https://keenx.live/big/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[3]]></description>
 </item>
 <item>
-    <title>Life</title>
-    <link>https://keenx.live/life/</link>
-    <pubDate>Thu, 16 Jun 2022 19:16:29 &#43;0800</pubDate>
+    <title></title>
+    <link>https://keenx.live/posts/tags/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>Louis</author>
-    <guid>https://keenx.live/life/</guid>
-    <description><![CDATA[Nobody can escape from death Test 1 2 Note 一个 注意 横幅 Tip 建议 这套叙事方]]></description>
+    <guid>https://keenx.live/posts/tags/</guid>
+    <description><![CDATA[Tags These are my tags.]]></description>
 </item>
 </channel>
 </rss>

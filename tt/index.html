@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dplayer@1.25.0/dist/DPlayer.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/dplayer@1.25.0/dist/DPlayer.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/hls.js@0.13.2/dist/hls.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/flv.js@1.5.0/dist/flv.min.js"></script>
+        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>对LoveIt主题的个人改动 - Louis Blog</title><meta name="Description" content="What is life?"><meta property="og:title" content="对LoveIt主题的个人改动" />
 <meta property="og:description" content="What is life?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://keenx.live/tt/" /><meta property="og:image" content="https://keenx.live/logo.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://keenx.live/tt/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-06-17T20:59:03+08:00" />
-<meta property="article:modified_time" content="2022-06-17T20:59:03+08:00" /><meta property="og:site_name" content="Louis Blog" />
+<meta property="article:modified_time" content="2022-06-17T20:59:03+08:00" /><meta property="og:site_name" content="My cool site" />
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://keenx.live/logo.png"/>
-
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="对LoveIt主题的个人改动"/>
 <meta name="twitter:description" content="What is life?"/>
 <meta name="application-name" content="我的网站">
@@ -30,7 +33,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/keenx.live\/tt\/"
-        },"genre": "posts","wordcount":  181 ,
+        },"genre": "posts","wordcount":  940 ,
         "url": "https:\/\/keenx.live\/tt\/","datePublished": "2022-06-17T20:59:03+08:00","dateModified": "2022-06-17T20:59:03+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -39,7 +42,7 @@
             },"description": "What is life?"
     }
     </script></head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <link rel="stylesheet" href="https://googlefonts.cn/css2?family=Bree+Serif&family=Varela+Round">
@@ -101,8 +104,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">对LoveIt主题的个人改动</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Louis</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-17">2022-06-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;181 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-06-17">2022-06-17</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;940 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -117,18 +120,163 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#css样式的修改">css样式的修改</a></li>
+    <li><a href="#修改某些css样式">修改某些css样式</a></li>
+    <li><a href="#设置背景轮播">设置背景轮播</a></li>
+    <li><a href="#添加dplayer播放器">添加DPlayer播放器</a></li>
+    <li><a href="#修改侧边栏目录样式">修改侧边栏目录样式</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="对loveit主题的个人改动"><strong>对LoveIt主题的个人改动</strong></h1>
-<h2 id="css样式的修改">css样式的修改</h2>
-<p>首先附上LoveIt主题的<a href="https://hugoloveit.com/zh-cn/" target="_blank" rel="noopener noreffer">doc</a>。本人完全不会前端，完全是面向搜索引擎和各个大佬的教程进行修改，主要修改了原主题css样式的字体种类大小和边边角角的一些颜色效果，此处留档。</p>
+            </div><div class="content" id="content"><blockquote>
+<p>首先附上LoveIt主题的<a href="https://hugoloveit.com/zh-cn/" target="_blank" rel="noopener noreffer">doc</a>。本人不会前端，完全是面向搜索引擎和各个大佬（尤其感谢<a href="https://lewky.cn/" target="_blank" rel="noopener noreffer">雨临Lewis</a>）的教程进行修改，主要修改了原主题css样式边边角角的一些效果，此处留档。</p>
+</blockquote>
+<h2 id="修改某些css样式">修改某些css样式</h2>
+<div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><blockquote>
+<p>根据<a href="https://lewky.cn/" target="_blank" rel="noopener noreffer">雨临Lewis</a>大佬的<a href="https://lewky.cn/posts/hugo-3.html/#%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9A%84_customscss" target="_blank" rel="noopener noreffer">这篇文章</a>建议：</p>
+<p><em>LoveIt主题提供了一个自定义的<code>_custom.scss</code>，可以在该文件里添加自定义的css样式。该文件目录位于<code>\themes\LoveIt\assets\css\_custom.scss</code>，不建议直接在该文件里写css代码。</em></p>
+<p><em>Hugo在渲染页面时优先读取站点根目录下的同名字的目录和文件，所以可以利用这个特点来美化主题。<strong>只需要把想修改的主题模板文件拷贝到根目录下同样的目录中并进行修改，这样就可以在不改动原本的主题文件的情况下实现主题美化。</strong></em></p>
+<p><em>首先在站点根目录下创建一个自定义的文件：<code>\assets\css\_custom.scss</code>，这样Hugo就会最终以该文件来渲染页面的样式。</em></p>
+</blockquote>
+</div>
+        </div>
+    </div>
 <ul>
-<li>加圆角：通过F12定位到样式后参考<a href="https://www.runoob.com/css3/css3-border-radius.html" target="_blank" rel="noopener noreffer">菜鸟CSS教程</a>修改。</li>
-<li>颜色：通过VsCode插件和浏览器开发工具便捷修改。</li>
+<li>加圆角：通过F12定位到样式后参考<a href="https://www.runoob.com/css3/css3-border-radius.html" target="_blank" rel="noopener noreffer">菜鸟CSS教程</a>修改<code>border-radius</code>，其中还可以单独调各个方向圆角，详看教程。</li>
+<li>颜色：通过VsCode插件和浏览器开发工具便捷可视化修改。</li>
+<li>磨砂效果：将<code>background-color</code>调成<code>rgba</code>带透明度的格式，然后加上<code>backdrop-filter: blur(4px)</code>，其中<code>4px</code>可以自定义调整，效果如图：</li>
 </ul>
-<p>未完持续&hellip;&hellip;</p>
-</div><div class="post-footer" id="post-footer">
+<figure><img src="/img/%e7%a3%a8%e7%a0%82%e6%95%88%e6%9e%9c.png"/><figcaption>
+            <h4>磨砂效果</h4>
+        </figcaption>
+</figure>
+
+<h2 id="设置背景轮播">设置背景轮播</h2>
+<p>参照<a href="https://lewky.cn/" target="_blank" rel="noopener noreffer">雨临Lewis</a>大佬的<a href="https://lewky.cn/posts/hugo-3.html/#%E6%B7%BB%E5%8A%A0%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%E8%BD%AE%E6%92%AD" target="_blank" rel="noopener noreffer">这篇文章</a>。</p>
+<h2 id="添加dplayer播放器">添加DPlayer播放器</h2>
+<p>参照<a href="https://blog.233so.com/" target="_blank" rel="noopener noreffer">Jay</a>的<a href="https://blog.233so.com/2020/04/hugo-loveit-with-dplayer-supported/" target="_blank" rel="noopener noreffer">这篇文章</a>，其中不知道为什么引入<code>DPlayer</code>的<code>css</code>和<code>Js</code>失败，后看到<a href="https://blog.ohmykreee.top/" target="_blank" rel="noopener noreffer">Kreee</a>的<a href="https://blog.ohmykreee.top/article/music-player-in-hugo-page/" target="_blank" rel="noopener noreffer">这篇文章</a>，直接将以下代码：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/dplayer@1.25.0/dist/DPlayer.min.css&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/dplayer@1.25.0/dist/DPlayer.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/hls.js@0.13.2/dist/hls.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdn.jsdelivr.net/npm/flv.js@1.5.0/dist/flv.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>复制到<code>\mysite\layouts\_default\baseof.html</code>的<code>&lt;head&gt; &lt;/head&gt;</code>中间，DPlayer成功加载，基本使用语法如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">{{<span class="p">&lt;</span> <span class="nt">video</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;u&#34;</span> <span class="na">url</span><span class="o">=</span><span class="s">&#34;url&#34;</span>  <span class="na">pic</span><span class="o">=</span><span class="s">&#34;pic&#34;</span><span class="p">&gt;</span> &gt;}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>其中<code>id</code>用来标识是同一个页面哪一个视频，<code>url</code>是视频地址，<code>pic</code>是视频封面，效果如下：</p>
+<div id="a"></div>
+    <script>
+      function loadDPlayer(){
+        let dp = new DPlayer({
+          container: document.getElementById("a"),
+          autoplay:  false ,
+          theme: "#b7daff",
+          loop:  false ,
+          lang: "en",
+          screenshot:  true ,
+          hotkey:  true ,
+          preload: "auto",
+          logo: "",
+          volume:  0.7 ,
+          mutex:  true ,
+          video: {
+              url: "https://%62%2E%32%30%30%30%31%32%30%37%2E%78%79%7A/api/raw/?path=/blogs%20src/YOASOBI%E3%80%8C%E3%81%82%E3%81%AE%E5%A4%A2%E3%82%92%E3%81%AA%E3%81%9E%E3%81%A3%E3%81%A6%20(Ballade%20Ver.)%E3%80%8D%20-%20%E3%82%B9%E3%83%9E%E3%83%9B%E6%98%A0%E7%94%BB%E3%80%8E%E5%A4%A2%E3%81%AE%E9%9B%AB%E3%81%A8%E6%98%9F%E3%81%AE%E8%8A%B1%E3%80%8F%E3%82%B3%E3%83%A9%E3%83%9C%E3%82%B9%E3%83%9A%E3%82%B7%E3%83%A3%E3%83%AB%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC.mkv",
+              pic: "",
+              thumbnails: "",
+              type: "auto",
+          },
+          subtitle: {
+              url: "",
+              type: "webvtt",
+              fontSize: "20px",
+              bottom: "10%",
+              color: "#b7daff",
+          },
+        });
+      }
+      document.addEventListener('DOMContentLoaded', loadDPlayer, !1);
+    </script>
+<h2 id="修改侧边栏目录样式">修改侧边栏目录样式</h2>
+<p>详见<a href="https://lewky.cn/posts/hugo-3.2.html/#%E4%BF%AE%E6%94%B9%E4%BE%A7%E8%BE%B9%E6%A0%8F%E7%9B%AE%E5%BD%95%E6%A0%B7%E5%BC%8F" target="_blank" rel="noopener noreffer">这篇文章</a>，下面是在其基础上的一些改动：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-CSS" data-lang="CSS"><span class="line"><span class="cl"><span class="o">[</span><span class="nt">theme</span><span class="o">=</span><span class="nt">dark</span><span class="o">]</span> <span class="p">.</span><span class="nc">toc</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">background</span><span class="p">:</span> <span class="mh">#43434a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">opacity</span><span class="p">:</span> <span class="mf">0.85</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span><span class="nt">theme</span><span class="o">=</span><span class="nt">dark</span><span class="o">]</span> <span class="p">#</span><span class="nn">toc-auto</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-left-color</span><span class="p">:</span> <span class="mh">#6f6a6a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">toc</span> <span class="p">.</span><span class="nc">toc-content</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">font-size</span><span class="p">:</span> <span class="mi">1</span><span class="kt">rem</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">.</span><span class="nc">toc</span> <span class="p">.</span><span class="nc">toc-content</span> <span class="nt">code</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">color</span><span class="p">:</span> <span class="mh">#f9785e</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">font-size</span><span class="p">:</span> <span class="mi">1</span><span class="kt">em</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="nt">nav</span><span class="p">#</span><span class="nn">TableOfContents</span> <span class="nt">ol</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">padding-inline-start</span><span class="p">:</span> <span class="mi">20</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">4</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="err">&amp;</span> <span class="err">ol</span> <span class="err">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">padding-inline-start</span><span class="p">:</span> <span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">font-size</span><span class="p">:</span> <span class="mf">.75</span><span class="kt">rem</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">display</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&amp;</span> <span class="nt">li</span><span class="p">.</span><span class="nc">has-active</span> <span class="nt">ol</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="err">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
