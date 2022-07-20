@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Louis Blog</title>
-        <link>https://keenx.live/posts/</link>
-        <description>All Posts | Louis Blog</description>
+        <title>hugo - Category - Louis Blog</title>
+        <link>https://keenx.live/categories/hugo/</link>
+        <description>hugo - Category - Louis Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>torchfor@gmail.com (Louis)</managingEditor>
-            <webMaster>torchfor@gmail.com (Louis)</webMaster><lastBuildDate>Fri, 17 Jun 2022 20:59:03 &#43;0800</lastBuildDate><atom:link href="https://keenx.live/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>torchfor@gmail.com (Louis)</webMaster><lastBuildDate>Fri, 17 Jun 2022 20:59:03 &#43;0800</lastBuildDate><atom:link href="https://keenx.live/categories/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>对LoveIt主题的个人改动</title>
     <link>https://keenx.live/loveit/</link>
     <pubDate>Fri, 17 Jun 2022 20:59:03 &#43;0800</pubDate>
