@@ -82,5 +82,5 @@ nav#TableOfContents ol {
 }
 ```
 
-未完持续......
+未完待续......
 
